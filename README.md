@@ -1,7 +1,5 @@
 # 🛡️ SecurePay: Dual-Gate Credit & Debit Card Fraud Detection System
-
-**Authors:** Shreya Pawar, Karan Sumbe, Isha Ghokane, Shantanu Aptikar  
-**Guide:** Prof. Aradhana Pawar & Dr. Lakshmikant Malphedwar  
+ 
 **Version:** 2.0 | March 2026
 
 ---
