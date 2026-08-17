@@ -1,0 +1,46 @@
+# Credit & Debit Card Fraud Detection System
+# Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML Libraries
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+imbalanced-learn>=0.10.0  # SMOTE for class balancing
+
+# Deep Learning (Face Recognition)
+torch>=2.0.0
+torchvision>=0.15.0
+facenet-pytorch>=2.5.3  # Modern face detection (MTCNN) and embeddings (FaceNet)
+opencv-python>=4.7.0  # For webcam capture and image processing
+
+# API Framework
+fastapi>=0.95.0
+uvicorn[standard]>=0.21.0
+pydantic>=1.10.0
+
+# UI Framework
+streamlit>=1.22.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.28.0
+pillow>=9.4.0
+matplotlib>=3.6.0  # For model evaluation plots
+seaborn>=0.12.0
+
+# Database (Production)
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# redis>=4.5.0             # Redis cache
+# sqlalchemy>=2.0.0        # ORM
+
+# Cloud Storage (Production)
+# boto3>=1.26.0            # AWS S3
+# google-cloud-storage>=2.7.0  # GCP Cloud Storage
+
+# Security (Production)
+# cryptography>=39.0.0     # AES encryption for biometric data
+# python-jose>=3.3.0       # JWT tokens
+
+# Monitoring (Production)
+# prometheus-client>=0.16.0
