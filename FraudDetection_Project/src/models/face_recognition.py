@@ -338,16 +338,9 @@ class FaceRecognitionEngine:
         return results
 
 
+
 if __name__ == "__main__":
     engine = FaceRecognitionEngine()
-
-    dataset_path = ("C:\\Users\\tsdes\\OneDrive\\Desktop\\Folder\\FraudDetection Project\\dataset")
-
-print("Exists:", os.path.exists(dataset_path))
-print("Contents:", os.listdir(dataset_path))
-
-print("Dataset path:", dataset_path)
-print("Folders:", os.listdir(dataset_path))
 engine.build_gallery_from_dataset(dataset_path)
 
 results = engine.evaluate_far_frr(dataset_path)
