@@ -339,11 +339,11 @@ class FaceRecognitionEngine:
 
 
 
+
 if __name__ == "__main__":
     engine = FaceRecognitionEngine()
-engine.build_gallery_from_dataset(dataset_path)
 
-results = engine.evaluate_far_frr(dataset_path)
+    results = engine.evaluate_far_frr(dataset_path)
 
-print("\nFINAL OUTPUT")
-print(results)
+    print("\nFINAL OUTPUT")
+    print(results)
