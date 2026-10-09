@@ -13,6 +13,7 @@ torch>=2.0.0
 torchvision>=0.15.0
 facenet-pytorch>=2.5.3  # Modern face detection (MTCNN) and embeddings (FaceNet)
 opencv-python>=4.7.0  # For webcam capture and image processing
+plotly
 
 # API Framework
 fastapi>=0.95.0
