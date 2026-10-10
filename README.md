@@ -13,7 +13,9 @@ SecurePay is a state-of-the-art, real-time fraud detection system designed to pr
 2. **Gate 2: Behavioral Analysis (ML)**  
    * A Random Forest ML classifier analyzes transaction properties (amount, location, velocity, device matching) to calculate a real-time risk score.
 
-Project Live URL : (https://credit-card-fraud-detection-project-pyn7ylufhg97q8akkcccdx.streamlit.app/)
+Project Live URL : 
+SecurePay Face Registration : (https://shantanuaptikar.github.io/Credit-Card-Fraud-Detection-Project/)
+Admin Dashboard : (https://credit-card-fraud-detection-project-pyn7ylufhg97q8akkcccdx.streamlit.app/)
 
 ```text
 Transaction Initiated 
