@@ -7,12 +7,13 @@
 ## 📖 Overview
 
 SecurePay is a state-of-the-art, real-time fraud detection system designed to prevent unauthorized credit and debit card usage. It implements a robust **Two-Gate Security Pipeline**:
-
 1. **Gate 1: Biometric Authentication (CNN)**  
    * Facial recognition using InceptionResnetV1 (FaceNet) to match the person making the transaction against the registered cardholder's face embeddings.
    * Liveness detection to prevent spoofing with printed photos.
 2. **Gate 2: Behavioral Analysis (ML)**  
    * A Random Forest ML classifier analyzes transaction properties (amount, location, velocity, device matching) to calculate a real-time risk score.
+
+Project Live URL : (https://credit-card-fraud-detection-project-pyn7ylufhg97q8akkcccdx.streamlit.app/)
 
 ```text
 Transaction Initiated 
